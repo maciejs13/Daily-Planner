@@ -47,6 +47,10 @@
                         </Grid.ColumnDefinitions>
                         
                 </Grid>
+                
+                <TextBlock x:Name="LiczbaZadan" HorizontalAlignment="Center" FontSize="16" Margin="10"/>
+                <TextBlock x:Name="LiczbaZadanZrobionych" HorizontalAlignment="Center" FontSize="16" Margin="10"/>
+
 
         </StackPanel>
         
