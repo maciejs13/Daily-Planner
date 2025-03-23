@@ -64,3 +64,4 @@ C:\Users\macie\RiderProjects\Daily Planner\Daily Planner\obj\Debug\net9.0\refint
 C:\Users\macie\RiderProjects\Daily Planner\Daily Planner\obj\Debug\net9.0\Daily Pl.CF388AF3.Up2Date
 C:\Users\macie\RiderProjects\Daily Planner\Daily Planner\obj\Debug\net9.0\Daily Planner.genruntimeconfig.cache
 C:\Users\macie\RiderProjects\Daily Planner\Daily Planner\obj\Debug\net9.0\ref\Daily Planner.dll
+C:\Users\macie\RiderProjects\Daily Planner\Daily Planner\obj\Debug\net9.0\Daily Planner.sourcelink.json

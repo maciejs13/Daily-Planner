@@ -5,5 +5,67 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Daily_Planner.MainWindow"
         Title="Daily_Planner">
-    Welcome to Avalonia!
+        
+        
+        <StackPanel>
+                
+                <TextBlock Text="Zaplanuj swój dzień:" HorizontalAlignment="Center" FontSize="20" Margin="10"/>
+                <TextBox x:Name="nazwa" Watermark="Nazwa Zadania.." Width="200" Height="20" Margin="10"/>
+                
+                <ComboBox x:Name="kategoria" Width="200" Height="20" HorizontalAlignment="Center">
+                        <ComboBoxItem>Praca</ComboBoxItem>
+                        <ComboBoxItem>Relaks</ComboBoxItem>
+                        <ComboBoxItem>Zakupy</ComboBoxItem>
+                </ComboBox>
+                
+                <Button Content="Dodaj zadanie" HorizontalAlignment="Center" Margin="15"/>
+                
+                <TextBlock Text="Lista zadań:" HorizontalAlignment="Center" FontSize="20" Margin="10"/>
+                
+                <Grid Margin="20" HorizontalAlignment="Center">
+                         
+                        <Grid.RowDefinitions>
+ 
+                                <RowDefinition Height="Auto" />
+ 
+                                <RowDefinition Height="*" />
+ 
+                                <RowDefinition Height="2*" />
+ 
+                                <RowDefinition Height="3*" />
+ 
+                        </Grid.RowDefinitions>
+ 
+                        <Grid.ColumnDefinitions>
+ 
+                                <ColumnDefinition Width="Auto" />
+ 
+                                <ColumnDefinition Width="*" />
+ 
+                                <ColumnDefinition Width="2*" />
+                                 
+                        </Grid.ColumnDefinitions>
+                        
+                         
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Nazwa Zadania" HorizontalAlignment="Center" Margin="5"/>
+                        
+                        <CheckBox Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" />
+                        
+                        
+                        <ComboBox Grid.Row="1" Grid.Column="0" Width="100" Height="20" HorizontalAlignment="Center" Margin="5">
+                                <ComboBoxItem>Praca</ComboBoxItem>
+                                <ComboBoxItem>Relaks</ComboBoxItem>
+                                <ComboBoxItem>Zakupy</ComboBoxItem>
+                        </ComboBox>
+                        
+                        <Button Grid.Row="1" Grid.Column="1" Content="Usuń" HorizontalContentAlignment="Center" Width="100" HorizontalAlignment="Center" Margin="5"/>
+                        
+                        
+                         
+                        
+                         
+                </Grid>
+
+        </StackPanel>
+        
 </Window>
